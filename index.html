@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pong</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <canvas id="myCanvas" width="800" height="500"></canvas>
+  <h3 class="limite">A pontuação começa em 5 e pode ser redefinida</h3>
+  <button class="add" onclick="aumentarLimite()">Aumentar um ponto para vencer</button>
+  <button class="rm" onclick="diminuirLimite()">Diminuir um ponto para vencer</button>
+  <h2 class="comandos">Comandos:</h2>
+  <h1 class="p1">Jogador 1 - W e S</h1> 
+  <h1 class="p2">Jogador 2 - Arrow up e Arrow Down</h1>
+  <img class="wasd" src="wasd.png"><img class="setas" src="setas.png">
+  <div class="comandos"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
